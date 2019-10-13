@@ -15,4 +15,7 @@
       <HintPath>..\..\Utilities\Utilities\Utilities\bin\Debug\netcoreapp3.0\Utilities.dll</HintPath>
     </Reference>
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Controller" />
+  </ItemGroup>
 </Project>

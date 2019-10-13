@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="113b90af-8f2f-4bc8-9b2f-c2f75d8afaa4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/SimpleRestFrameworkTest/Tests/GenericTests.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRestFramework/SimpleRestFramework/.idea/.idea.SimpleRestFramework.dir/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SimpleRestFramework/SimpleRestFramework/.idea/.idea.SimpleRestFramework.dir/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SimpleRestFramework/SimpleRestFramework/Service/CrudService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SimpleRestFramework/SimpleRestFramework/.idea/.idea.SimpleRestFramework.dir/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SimpleRestFramework/SimpleRestFramework/.idea/.idea.SimpleRestFramework.dir/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SimpleRestFramework/SimpleRestFramework/.idea/.idea.SimpleRestFramework.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SimpleRestFramework/SimpleRestFramework/.idea/.idea.SimpleRestFramework.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SimpleRestFrameworkTest/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SimpleRestFrameworkTest/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SimpleRestFrameworkTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SimpleRestFrameworkTest/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SimpleRestFrameworkTest/Tests/FactoryTests.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SimpleRestFramework/SimpleRestFramework/SimpleRestFramework.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../SimpleRestFramework/SimpleRestFramework/SimpleRestFramework.csproj" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -117,7 +115,7 @@
       <updated>1570976779902</updated>
       <workItem from="1570976781248" duration="8382000" />
       <workItem from="1571003163648" duration="2812000" />
-      <workItem from="1571006342777" duration="2202000" />
+      <workItem from="1571006342777" duration="2590000" />
     </task>
     <servers />
   </component>

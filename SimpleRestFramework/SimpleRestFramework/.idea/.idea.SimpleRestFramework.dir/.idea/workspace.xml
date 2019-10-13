@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d70e717-aace-4ed6-b229-57818b796cac" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../SimpleRestFrameworkTest/SimpleRestFrameworkTest/Tests/GenericTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Service/CrudService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SimpleRestFramework.dir/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SimpleRestFramework.dir/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SimpleRestFramework.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SimpleRestFramework.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SimpleRestFrameworkTest/.idea/.idea.SimpleRestFrameworkTest/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../SimpleRestFrameworkTest/.idea/.idea.SimpleRestFrameworkTest/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimpleRestFramework.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleRestFramework.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../SimpleRestFrameworkTest/.idea/.idea.SimpleRestFrameworkTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../SimpleRestFrameworkTest/.idea/.idea.SimpleRestFrameworkTest/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SimpleRestFrameworkTest/SimpleRestFrameworkTest/Tests/FactoryTests.cs" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,6 +41,7 @@
     <setting file="file://$PROJECT_DIR$/Generator/Service/IServiceGenerator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Generator/Generator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6436C3B0-5946-4D09-B571-C1F184B415F8/ee/e20aa733/DbCommand.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Service/CrudService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../SimpleRestFrameworkTest/SimpleRestFrameworkTest/Tests/GenericTests.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Generator/IGenerator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Generator/FileGenerator.cs" root0="FORCE_HIGHLIGHTING" />
@@ -69,6 +70,7 @@
         <option value="$PROJECT_DIR$/Persistence/DbConfig.cs" />
         <option value="$PROJECT_DIR$/Utils/ConfigUtils.cs" />
         <option value="$PROJECT_DIR$/Persistence/Database/PostgresDatabase.cs" />
+        <option value="$PROJECT_DIR$/Service/CrudService.cs" />
       </list>
     </option>
   </component>
@@ -118,7 +120,7 @@
       <workItem from="1570966724045" duration="3207000" />
       <workItem from="1570976447158" duration="5974000" />
       <workItem from="1571003154805" duration="2660000" />
-      <workItem from="1571006327354" duration="1173000" />
+      <workItem from="1571006327354" duration="1917000" />
     </task>
     <servers />
   </component>
