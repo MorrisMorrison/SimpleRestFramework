@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9d70e717-aace-4ed6-b229-57818b796cac" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Persistence/Database/PostgresDatabase.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Persistence/Utils/SqlUtils.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SimpleRestFramework.dir/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SimpleRestFramework.dir/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SimpleRestFramework.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SimpleRestFramework.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Persistence/Dao/DaoFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Persistence/Dao/DaoFactory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Persistence/Dao/IDao.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Persistence/Dao/IDao.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Persistence/Database/IDatabase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Persistence/Database/IDatabase.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Persistence/Database/MongoDatabase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Persistence/Database/MongoDatabase.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Persistence/Database/MySqlDatabase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Persistence/Database/MySqlDatabase.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Persistence/DbConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Persistence/DbConfig.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Persistence/DbConnection/DbConnection.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Persistence/DbConnection/DbConnection.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Persistence/DbConnection/IDbConnection.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Persistence/DbConnection/IDbConnection.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Persistence/IEntity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Persistence/IEntity.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimpleRestFramework.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleRestFramework.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Test.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Utils/ConfigUtils.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Utils/ConfigUtils.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netstandard2.0/SimpleRestFramework.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netstandard2.0/SimpleRestFramework.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netstandard2.0/SimpleRestFramework.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netstandard2.0/SimpleRestFramework.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/netstandard2.0/SimpleRestFramework.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netstandard2.0/SimpleRestFramework.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/netstandard2.0/SimpleRestFramework.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netstandard2.0/SimpleRestFramework.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/netstandard2.0/SimpleRestFramework.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netstandard2.0/SimpleRestFramework.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/netstandard2.0/SimpleRestFramework.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netstandard2.0/SimpleRestFramework.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/netstandard2.0/SimpleRestFramework.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netstandard2.0/SimpleRestFramework.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/netstandard2.0/SimpleRestFramework.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netstandard2.0/SimpleRestFramework.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/netstandard2.0/SimpleRestFramework.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netstandard2.0/SimpleRestFramework.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/SimpleRestFramework.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/SimpleRestFramework.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/SimpleRestFramework.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/SimpleRestFramework.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/SimpleRestFramework.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/obj/SimpleRestFramework.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/SimpleRestFramework.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/obj/SimpleRestFramework.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.packagespec.json" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Utils/PathUtils.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Generator/IFileGenerator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Utils/ConfigUtils.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Generator/IGenerator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Generator/FileGenerator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Generator/Generator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Generator/Service/ServiceGenerator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Generator/Service/IServiceGenerator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Generator/Controller/ControllerGenerator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Generator/Controller/IControllerGenerator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Persistence/DbConfig.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Persistence/IEntity.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Persistence/Dao/IDaoFactory.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Persistence/Dao/AbstractDao.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Persistence/Dao/DaoFactory.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Persistence/Dao/IDao.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Utilities/Utilities/Utilities/Persistence/Persistence.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Persistence/Database/PostgresDatabase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Persistence/Utils/SqlUtils.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Persistence/Database/Database.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6436C3B0-5946-4D09-B571-C1F184B415F8/92/f96b12f1/IDbCommand.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Persistence/Database/IDatabase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Persistence/Database/MongoDatabase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Persistence/Database/MySqlDatabase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Persistence/DbConnection/DbConnection.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Persistence/DbConnection/IDbConnection.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Persistence/DbConnection/DbConnectionProvider.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6436C3B0-5946-4D09-B571-C1F184B415F8/ee/e20aa733/DbCommand.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Test.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Persistence/IDao.cs" />
+        <option value="$PROJECT_DIR$/Persistence/IDaoFactory.cs" />
+        <option value="$PROJECT_DIR$/Persistence/DaoGenerator.cs" />
+        <option value="$PROJECT_DIR$/Persistence/DaoFactory.cs" />
+        <option value="$PROJECT_DIR$/Persistence/DbConnection/IDbConnection.cs" />
+        <option value="$PROJECT_DIR$/Persistence/Dao/DaoFactory.cs" />
+        <option value="$PROJECT_DIR$/Persistence/Utils/SqlUtils.cs" />
+        <option value="$PROJECT_DIR$/../../Utilities/Utilities/Utilities/Persistence/Persistence.cs" />
+        <option value="$PROJECT_DIR$/Persistence/Database/IDatabase.cs" />
+        <option value="$PROJECT_DIR$/Persistence/Database/MongoDatabase.cs" />
+        <option value="$PROJECT_DIR$/Persistence/Dao/AbstractDao.cs" />
+        <option value="$PROJECT_DIR$/Persistence/Dao/IDao.cs" />
+        <option value="$PROJECT_DIR$/Persistence/IEntity.cs" />
+        <option value="$PROJECT_DIR$/Persistence/Database/PostgresDatabase.cs" />
+        <option value="$PROJECT_DIR$/Persistence/DbConnection/DbConnection.cs" />
+        <option value="$PROJECT_DIR$/Persistence/Database/MySqlDatabase.cs" />
+        <option value="$PROJECT_DIR$/Persistence/DbConfig.cs" />
+        <option value="$PROJECT_DIR$/Utils/ConfigUtils.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1RlMYRVJoTkVWm6m0MykzKd6ZWz" />
+  <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SimpleRestFrameworkTest" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9d70e717-aace-4ed6-b229-57818b796cac" name="Default Changelist" comment="" />
+      <created>1564268506823</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1564268506823</updated>
+      <workItem from="1564268509402" duration="1222000" />
+      <workItem from="1570237278090" duration="769000" />
+      <workItem from="1570571330836" duration="4752000" />
+      <workItem from="1570654581848" duration="1212000" />
+      <workItem from="1570659474046" duration="4408000" />
+      <workItem from="1570723163556" duration="2319000" />
+      <workItem from="1570821675109" duration="606000" />
+      <workItem from="1570875317304" duration="1705000" />
+      <workItem from="1570887426927" duration="2289000" />
+      <workItem from="1570919614476" duration="6550000" />
+      <workItem from="1570966724045" duration="3207000" />
+      <workItem from="1570976447158" duration="5974000" />
+      <workItem from="1571003154805" duration="2660000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
