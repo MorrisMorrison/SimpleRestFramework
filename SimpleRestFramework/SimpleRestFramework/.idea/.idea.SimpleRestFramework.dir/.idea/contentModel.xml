@@ -49,7 +49,6 @@
           <e p="SqlUtils.cs" t="Include" />
         </e>
       </e>
-      <e p="README.md" t="Include" />
       <e p="SimpleRestFramework.csproj" t="IncludeRecursive" />
       <e p="Test.cs" t="Include" />
       <e p="Utils" t="Include">

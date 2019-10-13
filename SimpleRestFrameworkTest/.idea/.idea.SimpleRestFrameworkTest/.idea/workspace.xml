@@ -1,39 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="113b90af-8f2f-4bc8-9b2f-c2f75d8afaa4" name="Default Changelist" comment="" />
+    <list default="true" id="113b90af-8f2f-4bc8-9b2f-c2f75d8afaa4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/SimpleRestFrameworkTest/Tests/FactoryTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SimpleRestFramework/SimpleRestFramework/.idea/.idea.SimpleRestFramework.dir/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SimpleRestFramework/SimpleRestFramework/.idea/.idea.SimpleRestFramework.dir/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SimpleRestFramework/SimpleRestFramework/.idea/.idea.SimpleRestFramework.dir/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SimpleRestFramework/SimpleRestFramework/.idea/.idea.SimpleRestFramework.dir/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SimpleRestFramework/SimpleRestFramework/.idea/.idea.SimpleRestFramework.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SimpleRestFramework/SimpleRestFramework/.idea/.idea.SimpleRestFramework.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SimpleRestFramework/SimpleRestFramework/Persistence/Database/PostgresDatabase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../SimpleRestFramework/SimpleRestFramework/Persistence/Database/PostgresDatabase.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SimpleRestFrameworkTest/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SimpleRestFrameworkTest/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SimpleRestFrameworkTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SimpleRestFrameworkTest/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimpleRestFrameworkTest/SimpleRestFrameworkTest.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleRestFrameworkTest/SimpleRestFrameworkTest.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimpleRestFrameworkTest/Tests/PersistenceTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleRestFrameworkTest/Tests/PersistenceTests.cs" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/../SimpleRestFramework/Utils/ConfigUtils.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2F22993E-2191-4253-8BC4-D1A5A5B4B7F2/17/f3235a2d/String.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/SimpleRestFrameworkTest/Startup.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/DB77E3B2-7989-47D2-B162-88293D8ADDF7/0e/e96120de/Enumerable.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/SimpleRestFrameworkTest/Program.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2F22993E-2191-4253-8BC4-D1A5A5B4B7F2/fb/b2b9c5c1/AsyncValueTaskMethodBuilder`1.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../SimpleRestFramework/Persistence/DbConfig.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/B28E8D1C-D3BC-4AEC-AFB9-53A1BB401C11/1C/NpgsqlDataReader.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../SimpleRestFramework/Persistence/IEntity.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/B28E8D1C-D3BC-4AEC-AFB9-53A1BB401C11/13/NpgsqlCommand.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/B28E8D1C-D3BC-4AEC-AFB9-53A1BB401C11/39/SqlQueryParser.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../SimpleRestFramework/Persistence/Dao/AbstractDao.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../SimpleRestFramework/Persistence/Database/PostgresDatabase.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/523430E0-937F-4BDC-B672-434C1B215A80/E/SqlMapper.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../SimpleRestFramework/Persistence/Database/IDatabase.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5F1918FF-D41B-40FB-AAC1-684DA3E1946E/46/a1f62869/ConfigUtils.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2F22993E-2191-4253-8BC4-D1A5A5B4B7F2/09/a6d40d72/StringBuilder.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2F22993E-2191-4253-8BC4-D1A5A5B4B7F2/17/f3235a2d/String.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CFEBE10C-46DC-450B-937D-7CA8B14023A9/b1/3a4e02d5/IDao`1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SimpleRestFrameworkTest/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/DB77E3B2-7989-47D2-B162-88293D8ADDF7/0e/e96120de/Enumerable.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SimpleRestFrameworkTest/Tests/FactoryTests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SimpleRestFrameworkTest/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/41065E7F-EC8E-4F4B-9098-F3FF17568A9B/82/f44b70ea/IDao`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2F22993E-2191-4253-8BC4-D1A5A5B4B7F2/fb/b2b9c5c1/AsyncValueTaskMethodBuilder`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2F22993E-2191-4253-8BC4-D1A5A5B4B7F2/6b/89fe5ff5/ExecutionContext.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/B28E8D1C-D3BC-4AEC-AFB9-53A1BB401C11/1C/NpgsqlDataReader.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/.local/share/Symbols/src/nunit/nunit/c933a883ea25263ec575a654dae69fa38000edd9/src/NUnitFramework/framework/Internal/Execution/SimpleWorkItemDispatcher.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SimpleRestFrameworkTest/Tests/PersistenceTests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/.local/share/Symbols/src/nunit/nunit/c933a883ea25263ec575a654dae69fa38000edd9/src/NUnitFramework/framework/Internal/Execution/CompositeWorkItem.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/20084E4C-5578-41EF-972B-12F392F1DF7E/58/04f37643/DynamicMetaObjectBinder.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/B28E8D1C-D3BC-4AEC-AFB9-53A1BB401C11/13/NpgsqlCommand.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/B28E8D1C-D3BC-4AEC-AFB9-53A1BB401C11/39/SqlQueryParser.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4366C2DB-31DE-425F-B6EA-201D2725F1D2/f2/5a7c1dad/CSharpInvokeMemberBinder.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/523430E0-937F-4BDC-B672-434C1B215A80/E/SqlMapper.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/13AF6512-4CD4-42ED-AD3F-142CBCA65610/2/SqlMapperExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4366C2DB-31DE-425F-B6EA-201D2725F1D2/be/af3a84d0/BinderHelper.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -41,16 +49,19 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/SimpleRestFrameworkTest/Program.cs" />
+        <option value="$PROJECT_DIR$/SimpleRestFrameworkTest/Tests/DependencyInjectionTests.cs" />
+        <option value="$PROJECT_DIR$/SimpleRestFrameworkTest/Tests/FactoryTests.cs" />
         <option value="$PROJECT_DIR$/SimpleRestFrameworkTest/Tests/PersistenceTests.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectId" id="1S9XRotljLeKeesfaXgEeW1oDjQ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SimpleRestFramework/bin/Debug/netcoreapp3.0/SimpleRestFramework.dll" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SimpleRestFramework/SimpleRestFramework/bin/Debug/netcoreapp3.0/SimpleRestFramework.dll" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -108,6 +119,7 @@
       <updated>1570976779902</updated>
       <workItem from="1570976781248" duration="8382000" />
       <workItem from="1571003163648" duration="2812000" />
+      <workItem from="1571006342777" duration="989000" />
     </task>
     <servers />
   </component>
@@ -116,6 +128,17 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
   </component>

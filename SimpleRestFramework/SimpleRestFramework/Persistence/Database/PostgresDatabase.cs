@@ -1,16 +1,5 @@
-using System;
-using System.Collections.Generic;
-using System.Data;
-using System.Data.Common;
-using System.Data.SqlClient;
-using System.Linq;
-using System.Reflection;
-using Dapper;
 using Dapper.Contrib.Extensions;
 using Npgsql;
-using NpgsqlTypes;
-using Utilities.Collections;
-using Utilities.Persistence;
 
 namespace SimpleRestFramework.Persistence.Database
 {
