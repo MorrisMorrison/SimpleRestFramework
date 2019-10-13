@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="113b90af-8f2f-4bc8-9b2f-c2f75d8afaa4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/SimpleRestFrameworkTest/Tests/FactoryTests.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRestFramework/SimpleRestFramework/.idea/.idea.SimpleRestFramework.dir/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SimpleRestFramework/SimpleRestFramework/.idea/.idea.SimpleRestFramework.dir/.idea/contentModel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SimpleRestFrameworkTest/Tests/GenericTests.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SimpleRestFramework/SimpleRestFramework/.idea/.idea.SimpleRestFramework.dir/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SimpleRestFramework/SimpleRestFramework/.idea/.idea.SimpleRestFramework.dir/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SimpleRestFramework/SimpleRestFramework/.idea/.idea.SimpleRestFramework.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SimpleRestFramework/SimpleRestFramework/.idea/.idea.SimpleRestFramework.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRestFramework/SimpleRestFramework/Persistence/Database/PostgresDatabase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../SimpleRestFramework/SimpleRestFramework/Persistence/Database/PostgresDatabase.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SimpleRestFrameworkTest/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SimpleRestFrameworkTest/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SimpleRestFrameworkTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SimpleRestFrameworkTest/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SimpleRestFrameworkTest/SimpleRestFrameworkTest.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleRestFrameworkTest/SimpleRestFrameworkTest.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SimpleRestFrameworkTest/Tests/PersistenceTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleRestFrameworkTest/Tests/PersistenceTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimpleRestFrameworkTest/Tests/FactoryTests.cs" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,7 +25,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CFEBE10C-46DC-450B-937D-7CA8B14023A9/b1/3a4e02d5/IDao`1.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SimpleRestFrameworkTest/Startup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/DB77E3B2-7989-47D2-B162-88293D8ADDF7/0e/e96120de/Enumerable.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/SimpleRestFrameworkTest/Tests/FactoryTests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SimpleRestFrameworkTest/Tests/GenericTests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SimpleRestFrameworkTest/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/41065E7F-EC8E-4F4B-9098-F3FF17568A9B/82/f44b70ea/IDao`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2F22993E-2191-4253-8BC4-D1A5A5B4B7F2/fb/b2b9c5c1/AsyncValueTaskMethodBuilder`1.cs" root0="SKIP_HIGHLIGHTING" />
@@ -50,8 +47,9 @@
       <list>
         <option value="$PROJECT_DIR$/SimpleRestFrameworkTest/Program.cs" />
         <option value="$PROJECT_DIR$/SimpleRestFrameworkTest/Tests/DependencyInjectionTests.cs" />
-        <option value="$PROJECT_DIR$/SimpleRestFrameworkTest/Tests/FactoryTests.cs" />
         <option value="$PROJECT_DIR$/SimpleRestFrameworkTest/Tests/PersistenceTests.cs" />
+        <option value="$PROJECT_DIR$/SimpleRestFrameworkTest/Tests/FactoryTests.cs" />
+        <option value="$PROJECT_DIR$/SimpleRestFrameworkTest/Tests/GenericTests.cs" />
       </list>
     </option>
   </component>
@@ -119,7 +117,7 @@
       <updated>1570976779902</updated>
       <workItem from="1570976781248" duration="8382000" />
       <workItem from="1571003163648" duration="2812000" />
-      <workItem from="1571006342777" duration="989000" />
+      <workItem from="1571006342777" duration="2202000" />
     </task>
     <servers />
   </component>
