@@ -34,7 +34,6 @@ namespace SimpleRestFramework.Persistence.Database
 
             IMongoCollection<T> collection = _database.GetCollection<T>(type.Name);
             DeleteResult result = collection.DeleteOne(p_item => p_item.Id == p_entity.Id);
-
         }
 
         public T Get<T>(long p_id) where T: IEntity

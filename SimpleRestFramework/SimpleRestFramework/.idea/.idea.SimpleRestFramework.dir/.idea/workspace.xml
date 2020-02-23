@@ -2,13 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d70e717-aace-4ed6-b229-57818b796cac" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Service/CrudService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Controller/CrudController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Controller/IController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Controller/IControllerFactory.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Service/IService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Service/IServiceFactory.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Service/ServiceFactory.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SimpleRestFramework.dir/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SimpleRestFramework.dir/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SimpleRestFramework.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SimpleRestFramework.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Persistence/Database/MongoDatabase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Persistence/Database/MongoDatabase.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Service/CrudService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Service/CrudService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SimpleRestFramework.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleRestFramework.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SimpleRestFrameworkTest/.idea/.idea.SimpleRestFrameworkTest/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../SimpleRestFrameworkTest/.idea/.idea.SimpleRestFrameworkTest/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../SimpleRestFrameworkTest/.idea/.idea.SimpleRestFrameworkTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../SimpleRestFrameworkTest/.idea/.idea.SimpleRestFrameworkTest/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SimpleRestFrameworkTest/.idea/.idea.SimpleRestFrameworkTest/riderModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../SimpleRestFrameworkTest/.idea/.idea.SimpleRestFrameworkTest/riderModule.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SimpleRestFrameworkTest/SimpleRestFrameworkTest.sln" beforeDir="false" afterPath="$PROJECT_DIR$/../../SimpleRestFrameworkTest/SimpleRestFrameworkTest.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SimpleRestFrameworkTest/SimpleRestFrameworkTest/Controllers/WeatherForecastController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SimpleRestFrameworkTest/SimpleRestFrameworkTest/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../SimpleRestFrameworkTest/SimpleRestFrameworkTest/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SimpleRestFrameworkTest/SimpleRestFrameworkTest/WeatherForecast.cs" beforeDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,36 +30,42 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Persistence/DbConnection/DbConnectionProvider.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Persistence/Database/MongoDatabase.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Persistence/Database/MySqlDatabase.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Persistence/DbConnection/DbConnection.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Persistence/DbConnection/IDbConnection.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Persistence/Database/PostgresDatabase.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Persistence/Utils/SqlUtils.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Persistence/Database/Database.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Persistence/Database/IDatabase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Generator/Generator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Generator/Service/IServiceGenerator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Generator/Controller/IControllerGenerator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Generator/Service/ServiceGenerator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Controller/CrudController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Generator/Controller/ControllerGenerator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Persistence/DbConfig.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Persistence/IEntity.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Persistence/Dao/IDaoFactory.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Persistence/Dao/AbstractDao.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Persistence/Dao/DaoFactory.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Persistence/Dao/IDao.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Persistence/IEntity.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Generator/Controller/ControllerGenerator.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Generator/Controller/IControllerGenerator.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Persistence/DbConfig.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6436C3B0-5946-4D09-B571-C1F184B415F8/92/f96b12f1/IDbCommand.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Test.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Generator/Service/ServiceGenerator.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Generator/Service/IServiceGenerator.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Generator/Generator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Persistence/Database/PostgresDatabase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Persistence/Utils/SqlUtils.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Persistence/Database/Database.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Persistence/Database/IDatabase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Persistence/Database/MongoDatabase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Persistence/Database/MySqlDatabase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Persistence/DbConnection/DbConnection.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Persistence/DbConnection/IDbConnection.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Persistence/DbConnection/DbConnectionProvider.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6436C3B0-5946-4D09-B571-C1F184B415F8/ee/e20aa733/DbCommand.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Service/CrudService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6436C3B0-5946-4D09-B571-C1F184B415F8/92/f96b12f1/IDbCommand.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../SimpleRestFrameworkTest/SimpleRestFrameworkTest/Tests/GenericTests.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Generator/IGenerator.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Generator/FileGenerator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Service/IServiceFactory.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Service/ServiceFactory.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Service/IService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Controller/IController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Controller/IControllerFactory.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Utils/PathUtils.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Generator/IFileGenerator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Service/CrudService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Utils/ConfigUtils.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Test.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Generator/IFileGenerator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Generator/FileGenerator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Generator/IGenerator.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -61,7 +79,6 @@
         <option value="$PROJECT_DIR$/Persistence/Utils/SqlUtils.cs" />
         <option value="$PROJECT_DIR$/../../Utilities/Utilities/Utilities/Persistence/Persistence.cs" />
         <option value="$PROJECT_DIR$/Persistence/Database/IDatabase.cs" />
-        <option value="$PROJECT_DIR$/Persistence/Database/MongoDatabase.cs" />
         <option value="$PROJECT_DIR$/Persistence/Dao/AbstractDao.cs" />
         <option value="$PROJECT_DIR$/Persistence/Dao/IDao.cs" />
         <option value="$PROJECT_DIR$/Persistence/IEntity.cs" />
@@ -70,32 +87,36 @@
         <option value="$PROJECT_DIR$/Persistence/DbConfig.cs" />
         <option value="$PROJECT_DIR$/Utils/ConfigUtils.cs" />
         <option value="$PROJECT_DIR$/Persistence/Database/PostgresDatabase.cs" />
+        <option value="$PROJECT_DIR$/Persistence/Database/MongoDatabase.cs" />
         <option value="$PROJECT_DIR$/Service/CrudService.cs" />
+        <option value="$PROJECT_DIR$/Service/IService.cs" />
+        <option value="$PROJECT_DIR$/Service/IServiceFactory.cs" />
+        <option value="$PROJECT_DIR$/Service/ServiceFactory.cs" />
+        <option value="$PROJECT_DIR$/Controller/IController.cs" />
+        <option value="$PROJECT_DIR$/Controller/CrudController.cs" />
+        <option value="$PROJECT_DIR$/Controller/IControllerFactory.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectId" id="1RlMYRVJoTkVWm6m0MykzKd6ZWz" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="Rider.SolutionExplorerActivator" value="true" />
+    <property name="TWShift.3" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../SimpleRestFrameworkTest/SimpleRestFrameworkTest.sln" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -120,7 +141,11 @@
       <workItem from="1570966724045" duration="3207000" />
       <workItem from="1570976447158" duration="5974000" />
       <workItem from="1571003154805" duration="2660000" />
-      <workItem from="1571006327354" duration="1917000" />
+      <workItem from="1571006327354" duration="2587000" />
+      <workItem from="1571074136504" duration="6018000" />
+      <workItem from="1574550302636" duration="161000" />
+      <workItem from="1574552456811" duration="609000" />
+      <workItem from="1582395713935" duration="2920000" />
     </task>
     <servers />
   </component>
@@ -143,10 +168,19 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1582395750139">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1582395750139" />
+    <state x="789" y="203" width="722" height="699" key="RiderGenerateDialog" timestamp="1582397624055">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="789" y="203" width="722" height="699" key="RiderGenerateDialog/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1582397624055" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

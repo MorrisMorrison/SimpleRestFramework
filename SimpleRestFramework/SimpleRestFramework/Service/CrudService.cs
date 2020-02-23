@@ -4,7 +4,7 @@ using SimpleRestFramework.Persistence;
 namespace SimpleRestFramework.Service
 {
 
-    public interface ICrudService<T> where T:IEntity
+    public interface ICrudService<T>:IService where T:IEntity
     {
         IDao<T> Dao { get; set; }
 
