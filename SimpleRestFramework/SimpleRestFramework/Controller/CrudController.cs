@@ -21,6 +21,10 @@ namespace SimpleRestFramework.Controller
             
         }
 
+        protected AbstractCrudController()
+        {
+        }
+
         protected AbstractCrudController(ICrudService<T> p_crudService)
         {
             CrudService = p_crudService;

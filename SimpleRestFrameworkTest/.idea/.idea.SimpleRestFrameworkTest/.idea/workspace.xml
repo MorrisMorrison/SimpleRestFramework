@@ -2,30 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e36b2d7b-f8a1-4e1c-a4bb-a4fdd823c665" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../SimpleRestFramework/SimpleRestFramework/Controller/CrudController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SimpleRestFramework/SimpleRestFramework/Controller/IController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SimpleRestFramework/SimpleRestFramework/Controller/IControllerFactory.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SimpleRestFramework/SimpleRestFramework/Service/IService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SimpleRestFramework/SimpleRestFramework/Service/IServiceFactory.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SimpleRestFramework/SimpleRestFramework/Service/ServiceFactory.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRestFramework/SimpleRestFramework/.idea/.idea.SimpleRestFramework.dir/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SimpleRestFramework/SimpleRestFramework/.idea/.idea.SimpleRestFramework.dir/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRestFramework/SimpleRestFramework/.idea/.idea.SimpleRestFramework.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SimpleRestFramework/SimpleRestFramework/.idea/.idea.SimpleRestFramework.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRestFramework/SimpleRestFramework/Persistence/Database/MongoDatabase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../SimpleRestFramework/SimpleRestFramework/Persistence/Database/MongoDatabase.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SimpleRestFramework/SimpleRestFramework/Controller/CrudController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../SimpleRestFramework/SimpleRestFramework/Controller/CrudController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SimpleRestFramework/SimpleRestFramework/Service/CrudService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../SimpleRestFramework/SimpleRestFramework/Service/CrudService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRestFramework/SimpleRestFramework/SimpleRestFramework.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../SimpleRestFramework/SimpleRestFramework/SimpleRestFramework.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SimpleRestFrameworkTest/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SimpleRestFrameworkTest/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SimpleRestFrameworkTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SimpleRestFrameworkTest/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SimpleRestFrameworkTest/riderModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SimpleRestFrameworkTest/riderModule.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SetupTestData.sql" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/SimpleRestFrameworkTest.sln" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleRestFrameworkTest.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SimpleRestFrameworkTest/Controllers/WeatherForecastController.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/SimpleRestFrameworkTest/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleRestFrameworkTest/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SimpleRestFrameworkTest/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleRestFrameworkTest/Properties/launchSettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SimpleRestFrameworkTest/SimpleRestFrameworkTest.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleRestFrameworkTest/SimpleRestFrameworkTest.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SimpleRestFrameworkTest/Tests/GenericTests.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SimpleRestFrameworkTest/Tests/PersistenceTests.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SimpleRestFrameworkTest/WeatherForecast.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SimpleRestFrameworkTest/appsettings.Development.json" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleRestFrameworkTest/appsettings.Development.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimpleRestFrameworkTest/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleRestFrameworkTest/Startup.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,15 +21,28 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/SimpleRestFrameworkTest/Startup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SimpleRestFrameworkTest/WeatherForecast.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SimpleRestFrameworkTest/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SimpleRestFrameworkTest/appsettings.Development.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../SimpleRestFramework/SimpleRestFramework/Controller/CrudController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SimpleRestFrameworkTest/Controllers/WeatherForecastController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../SimpleRestFramework/SimpleRestFramework/Controller/IControllerFactory.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../SimpleRestFramework/SimpleRestFramework/Persistence/Dao/IDaoFactory.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../SimpleRestFramework/SimpleRestFramework/Persistence/Dao/AbstractDao.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../SimpleRestFramework/SimpleRestFramework/Persistence/Dao/DaoFactory.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SimpleRestFrameworkTest/Tests/GenericTests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../SimpleRestFramework/SimpleRestFramework/Service/CrudService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/C866BA95-6C92-4815-BE5F-137AACAC57CE/2E/RuntimeType.CoreCLR.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/../SimpleRestFramework/SimpleRestFramework/Persistence/Dao/DaoFactory.cs" />
+        <option value="$PROJECT_DIR$/../SimpleRestFramework/SimpleRestFramework/Controller/CrudController.cs" />
+        <option value="$PROJECT_DIR$/../SimpleRestFramework/SimpleRestFramework/Service/CrudService.cs" />
         <option value="$PROJECT_DIR$/SimpleRestFrameworkTest/Program.cs" />
+        <option value="$PROJECT_DIR$/SimpleRestFrameworkTest/Startup.cs" />
       </list>
     </option>
   </component>
@@ -62,7 +60,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TWShift.3" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SimpleRestFramework/SimpleRestFramework/bin/Debug/netcoreapp3.0/SimpleRestFramework.dll" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SimpleRestFramework/SimpleRestFramework/SimpleRestFramework.csproj" />
   </component>
   <component name="RunManager" selected=".NET Launch Settings Profile.SimpleRestFrameworkTest">
     <configuration name="SimpleRestFrameworkTest" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
@@ -106,122 +104,108 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1582458425289</updated>
-      <workItem from="1582458426756" duration="99000" />
+      <workItem from="1582458426756" duration="395000" />
+      <workItem from="1582459145956" duration="1109000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="WindowStateProjectService">
     <state width="570" height="568" key="DebuggerActiveHint" timestamp="1582458606831">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state width="570" height="568" key="DebuggerActiveHint/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1582458606831" />
-    <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1582458456954">
+    <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1582459154851">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1582458456954" />
-    <state width="1807" height="344" key="GridCell.Tab.0.bottom" timestamp="1582458633830">
+    <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1582459154851" />
+    <state width="1807" height="344" key="GridCell.Tab.0.bottom" timestamp="1582459483920">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="344" key="GridCell.Tab.0.bottom/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1582458633830" />
-    <state width="1807" height="344" key="GridCell.Tab.0.center" timestamp="1582458633830">
+    <state width="1807" height="344" key="GridCell.Tab.0.bottom/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1582459483920" />
+    <state width="1807" height="344" key="GridCell.Tab.0.center" timestamp="1582459483920">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="344" key="GridCell.Tab.0.center/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1582458633830" />
-    <state width="1807" height="344" key="GridCell.Tab.0.left" timestamp="1582458633830">
+    <state width="1807" height="344" key="GridCell.Tab.0.center/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1582459483920" />
+    <state width="1807" height="344" key="GridCell.Tab.0.left" timestamp="1582459483920">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="344" key="GridCell.Tab.0.left/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1582458633830" />
-    <state width="1807" height="344" key="GridCell.Tab.0.right" timestamp="1582458633830">
+    <state width="1807" height="344" key="GridCell.Tab.0.left/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1582459483920" />
+    <state width="1807" height="344" key="GridCell.Tab.0.right" timestamp="1582459483920">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="344" key="GridCell.Tab.0.right/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1582458633830" />
-    <state width="1807" height="344" key="GridCell.Tab.1.bottom" timestamp="1582458633830">
+    <state width="1807" height="344" key="GridCell.Tab.0.right/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1582459483920" />
+    <state width="1807" height="344" key="GridCell.Tab.1.bottom" timestamp="1582459483921">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="344" key="GridCell.Tab.1.bottom/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1582458633830" />
-    <state width="1807" height="344" key="GridCell.Tab.1.center" timestamp="1582458633830">
+    <state width="1807" height="344" key="GridCell.Tab.1.bottom/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1582459483921" />
+    <state width="1807" height="344" key="GridCell.Tab.1.center" timestamp="1582459483921">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="344" key="GridCell.Tab.1.center/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1582458633830" />
-    <state width="1807" height="344" key="GridCell.Tab.1.left" timestamp="1582458633830">
+    <state width="1807" height="344" key="GridCell.Tab.1.center/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1582459483921" />
+    <state width="1807" height="344" key="GridCell.Tab.1.left" timestamp="1582459483921">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="344" key="GridCell.Tab.1.left/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1582458633830" />
-    <state width="1807" height="344" key="GridCell.Tab.1.right" timestamp="1582458633830">
+    <state width="1807" height="344" key="GridCell.Tab.1.left/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1582459483921" />
+    <state width="1807" height="344" key="GridCell.Tab.1.right" timestamp="1582459483921">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="344" key="GridCell.Tab.1.right/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1582458633830" />
-    <state width="1807" height="344" key="GridCell.Tab.2.bottom" timestamp="1582458633830">
+    <state width="1807" height="344" key="GridCell.Tab.1.right/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1582459483921" />
+    <state width="1807" height="344" key="GridCell.Tab.2.bottom" timestamp="1582459483921">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="344" key="GridCell.Tab.2.bottom/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1582458633830" />
-    <state width="1807" height="344" key="GridCell.Tab.2.center" timestamp="1582458633830">
+    <state width="1807" height="344" key="GridCell.Tab.2.bottom/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1582459483921" />
+    <state width="1807" height="344" key="GridCell.Tab.2.center" timestamp="1582459483921">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="344" key="GridCell.Tab.2.center/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1582458633830" />
-    <state width="1807" height="344" key="GridCell.Tab.2.left" timestamp="1582458633830">
+    <state width="1807" height="344" key="GridCell.Tab.2.center/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1582459483921" />
+    <state width="1807" height="344" key="GridCell.Tab.2.left" timestamp="1582459483921">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="344" key="GridCell.Tab.2.left/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1582458633830" />
-    <state width="1807" height="344" key="GridCell.Tab.2.right" timestamp="1582458633830">
+    <state width="1807" height="344" key="GridCell.Tab.2.left/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1582459483921" />
+    <state width="1807" height="344" key="GridCell.Tab.2.right" timestamp="1582459483921">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="344" key="GridCell.Tab.2.right/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1582458633830" />
-    <state width="1807" height="344" key="GridCell.Tab.3.bottom" timestamp="1582458633831">
+    <state width="1807" height="344" key="GridCell.Tab.2.right/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1582459483921" />
+    <state width="1807" height="344" key="GridCell.Tab.3.bottom" timestamp="1582459483921">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="344" key="GridCell.Tab.3.bottom/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1582458633831" />
-    <state width="1807" height="344" key="GridCell.Tab.3.center" timestamp="1582458633830">
+    <state width="1807" height="344" key="GridCell.Tab.3.bottom/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1582459483921" />
+    <state width="1807" height="344" key="GridCell.Tab.3.center" timestamp="1582459483921">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="344" key="GridCell.Tab.3.center/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1582458633830" />
-    <state width="1807" height="344" key="GridCell.Tab.3.left" timestamp="1582458633830">
+    <state width="1807" height="344" key="GridCell.Tab.3.center/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1582459483921" />
+    <state width="1807" height="344" key="GridCell.Tab.3.left" timestamp="1582459483921">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="344" key="GridCell.Tab.3.left/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1582458633830" />
-    <state width="1807" height="344" key="GridCell.Tab.3.right" timestamp="1582458633830">
+    <state width="1807" height="344" key="GridCell.Tab.3.left/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1582459483921" />
+    <state width="1807" height="344" key="GridCell.Tab.3.right" timestamp="1582459483921">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="344" key="GridCell.Tab.3.right/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1582458633830" />
-    <state width="1807" height="344" key="GridCell.Tab.4.bottom" timestamp="1582458633831">
+    <state width="1807" height="344" key="GridCell.Tab.3.right/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1582459483921" />
+    <state width="1807" height="344" key="GridCell.Tab.4.bottom" timestamp="1582459483921">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="344" key="GridCell.Tab.4.bottom/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1582458633831" />
-    <state width="1807" height="344" key="GridCell.Tab.4.center" timestamp="1582458633831">
+    <state width="1807" height="344" key="GridCell.Tab.4.bottom/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1582459483921" />
+    <state width="1807" height="344" key="GridCell.Tab.4.center" timestamp="1582459483921">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="344" key="GridCell.Tab.4.center/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1582458633831" />
-    <state width="1807" height="344" key="GridCell.Tab.4.left" timestamp="1582458633831">
+    <state width="1807" height="344" key="GridCell.Tab.4.center/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1582459483921" />
+    <state width="1807" height="344" key="GridCell.Tab.4.left" timestamp="1582459483921">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="344" key="GridCell.Tab.4.left/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1582458633831" />
-    <state width="1807" height="344" key="GridCell.Tab.4.right" timestamp="1582458633831">
+    <state width="1807" height="344" key="GridCell.Tab.4.left/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1582459483921" />
+    <state width="1807" height="344" key="GridCell.Tab.4.right" timestamp="1582459483921">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="344" key="GridCell.Tab.4.right/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1582458633831" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/SimpleRestFrameworkTest/Program.cs</url>
-          <line>27</line>
-          <properties documentPath="$PROJECT_DIR$/SimpleRestFrameworkTest/Program.cs" initialLine="27">
-            <startOffsets>
-              <option value="801" />
-            </startOffsets>
-            <endOffsets>
-              <option value="855" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state width="1807" height="344" key="GridCell.Tab.4.right/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1582459483921" />
+    <state x="627" y="182" width="722" height="741" key="RiderGenerateDialog" timestamp="1582459480135">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="627" y="182" width="722" height="741" key="RiderGenerateDialog/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1582459480135" />
   </component>
 </project>

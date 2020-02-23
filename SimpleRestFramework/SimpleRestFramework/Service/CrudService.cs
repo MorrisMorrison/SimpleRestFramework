@@ -19,6 +19,11 @@ namespace SimpleRestFramework.Service
     {
         public IDao<T> Dao { get; set; }
 
+
+        protected AbstractCrudService()
+        {
+        }
+
         protected AbstractCrudService(IDao<T> p_dao)
         {
             Dao = p_dao;

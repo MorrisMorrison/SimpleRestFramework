@@ -21,30 +21,25 @@ namespace SimpleRestFrameworkTest
         {
             
             
-            IDictionary<Type, Type> types = new Dictionary<Type, Type>(){
+            IDictionary<Type, Type> daos = new Dictionary<Type, Type>(){
                 {typeof(ExampleEntity), typeof(ExampleDao)}
             };
             
             DbConfig dbConfig =  ConfigUtils.GetDefaultDbConfig();
             
-            DaoFactory daoFactory = new DaoFactory(types, dbConfig);
+            DaoFactory daoFactory = new DaoFactory(daos, dbConfig);
             IDao<ExampleEntity> dao = daoFactory.GetDao<ExampleEntity>();
             
-            ExampleEntity exampleEntity = new ExampleEntity(){
-                Id = 4,
-                CreatedAt = DateTime.Now,
-                UpdatedAt = DateTime.Now
+            IDictionary<Type, Type> services = new Dictionary<Type, Type>(){
+                {typeof(ExampleEntity), typeof(ExampleService)}
             };
-            
-            dao.Create(exampleEntity);
-            
-            ExampleEntity entity = dao.Get(4);
-            Console.WriteLine(entity.Id);
-            
-            ICrudServiceFactory serviceFactory = new CrudServiceFactory(types, daoFactory);
+            ICrudServiceFactory serviceFactory = new CrudServiceFactory(services, daoFactory);
             ICrudService<ExampleEntity> crudService = serviceFactory.GetCrudService<ExampleEntity>();
             
-            ICrudControllerFactory controllerFactory = new CrudControllerFactory(types, serviceFactory);
+            IDictionary<Type, Type> controllers = new Dictionary<Type, Type>(){
+                {typeof(ExampleEntity), typeof(ExampleService)}
+            };
+            ICrudControllerFactory controllerFactory = new CrudControllerFactory(controllers, serviceFactory);
             ICrudController<ExampleEntity> crudController = controllerFactory.GetController<ExampleEntity>();
             
             
@@ -66,6 +61,14 @@ namespace SimpleRestFrameworkTest
     }
 
     public class ExampleDao:AbstractDao<ExampleEntity>{
+
+    }
+    
+    public class ExampleService:AbstractCrudService<ExampleEntity>{
+
+    }
+    
+    public class ExampleController:AbstractCrudController<ExampleEntity>{
 
     }
 }

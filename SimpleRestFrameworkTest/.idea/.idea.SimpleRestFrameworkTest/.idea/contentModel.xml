@@ -3,6 +3,78 @@
   <component name="ContentModelStore">
     <e p="$USER_HOME$/.Rider2019.3/system/extResources" t="IncludeRecursive" />
     <e p="$USER_HOME$/.Rider2019.3/system/resharper-host/local/Transient/ReSharperHost/v193/SolutionCaches/_SimpleRestFrameworkTest.378448166.00" t="ExcludeRecursive" />
+    <e p="$PROJECT_DIR$/../SimpleRestFramework/SimpleRestFramework" t="IncludeRecursive">
+      <e p="Controller" t="Include">
+        <e p="CrudController.cs" t="Include" />
+        <e p="IController.cs" t="Include" />
+        <e p="IControllerFactory.cs" t="Include" />
+      </e>
+      <e p="Generator" t="Include">
+        <e p="Controller" t="Include">
+          <e p="ControllerGenerator.cs" t="Include" />
+          <e p="IControllerGenerator.cs" t="Include" />
+        </e>
+        <e p="Dao" t="Include">
+          <e p="DaoConfig.cs" t="Include" />
+          <e p="DaoGenerator.cs" t="Include" />
+          <e p="IDaoConfig.cs" t="Include" />
+          <e p="IDaoGenerator.cs" t="Include" />
+        </e>
+        <e p="FileGenerator.cs" t="Include" />
+        <e p="Generator.cs" t="Include" />
+        <e p="IFileGenerator.cs" t="Include" />
+        <e p="IGenerator.cs" t="Include" />
+        <e p="Service" t="Include">
+          <e p="IServiceGenerator.cs" t="Include" />
+          <e p="ServiceGenerator.cs" t="Include" />
+        </e>
+      </e>
+      <e p="Persistence" t="Include">
+        <e p="Dao" t="Include">
+          <e p="AbstractDao.cs" t="Include" />
+          <e p="DaoFactory.cs" t="Include" />
+          <e p="IDao.cs" t="Include" />
+          <e p="IDaoFactory.cs" t="Include" />
+        </e>
+        <e p="Database" t="Include">
+          <e p="Database.cs" t="Include" />
+          <e p="IDatabase.cs" t="Include" />
+          <e p="MongoDatabase.cs" t="Include" />
+          <e p="MySqlDatabase.cs" t="Include" />
+          <e p="PostgresDatabase.cs" t="Include" />
+        </e>
+        <e p="DbConfig.cs" t="Include" />
+        <e p="DbConnection" t="Include">
+          <e p="DbConnection.cs" t="Include" />
+          <e p="DbConnectionProvider.cs" t="Include" />
+          <e p="IDbConnection.cs" t="Include" />
+        </e>
+        <e p="IEntity.cs" t="Include" />
+        <e p="Utils" t="Include">
+          <e p="SqlUtils.cs" t="Include" />
+        </e>
+      </e>
+      <e p="Service" t="Include">
+        <e p="CrudService.cs" t="Include" />
+        <e p="IService.cs" t="Include" />
+        <e p="IServiceFactory.cs" t="Include" />
+        <e p="ServiceFactory.cs" t="Include" />
+      </e>
+      <e p="SimpleRestFramework.csproj" t="IncludeRecursive" />
+      <e p="Test.cs" t="Include" />
+      <e p="Utils" t="Include">
+        <e p="ConfigUtils.cs" t="Include" />
+        <e p="PathUtils.cs" t="Include" />
+      </e>
+      <e p="bin" t="ExcludeRecursive" />
+      <e p="obj" t="ExcludeRecursive">
+        <e p="Debug" t="Include">
+          <e p="netcoreapp3.0" t="Include">
+            <e p="SimpleRestFramework.AssemblyInfo.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+    </e>
     <e p="$PROJECT_DIR$" t="IncludeFlat">
       <e p="SimpleRestFrameworkTest" t="IncludeRecursive">
         <e p="Controllers" t="Include">
@@ -22,6 +94,7 @@
         <e p="appsettings.Development.json" t="Include" />
         <e p="appsettings.json" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
+        <e p="mono_crash.mem.20488.1.blob" t="Include" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp3.1" t="Include">

@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleRestFrameworkTest", "SimpleRestFrameworkTest\SimpleRestFrameworkTest.csproj", "{888DB845-1C9A-499A-A47B-06267F863D43}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleRestFramework", "..\SimpleRestFramework\SimpleRestFramework\SimpleRestFramework.csproj", "{CE3AAAB4-650F-46E9-B8F8-3DDBEAE60D2F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{888DB845-1C9A-499A-A47B-06267F863D43}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{888DB845-1C9A-499A-A47B-06267F863D43}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{888DB845-1C9A-499A-A47B-06267F863D43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE3AAAB4-650F-46E9-B8F8-3DDBEAE60D2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE3AAAB4-650F-46E9-B8F8-3DDBEAE60D2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE3AAAB4-650F-46E9-B8F8-3DDBEAE60D2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE3AAAB4-650F-46E9-B8F8-3DDBEAE60D2F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
