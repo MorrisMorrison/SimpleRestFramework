@@ -61,7 +61,9 @@ namespace SimpleRestFrameworkTest
     }
 
     public class ExampleDao:AbstractDao<ExampleEntity>{
-
+        public ExampleDao(IDbConnection p_dbConnection) : base(p_dbConnection)
+        {
+        }
     }
     
     public class ExampleService:AbstractCrudService<ExampleEntity>{

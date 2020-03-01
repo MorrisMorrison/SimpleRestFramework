@@ -13,7 +13,7 @@ namespace SimpleRestFrameworkTest.Tests
     {
         
         private string _connectionString =
-            "Server=localhost;Port=3306;Database=tests;User=mysql;Password=developmentPW123!;";
+            "Server=localhost;Port=3306;Database=tests;User=mysql;Password=password;";
         
         [SetUp]
         public void SetUp()

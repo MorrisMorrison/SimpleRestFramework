@@ -7,9 +7,9 @@ namespace SimpleRestFramework.Persistence
             get; set;
         }
 
-        protected AbstractDao()
+        protected AbstractDao(IDbConnection p_dbConnection)
         {
-
+            DbConnection = p_dbConnection;
         }
 
         public void Create(T p_entity)

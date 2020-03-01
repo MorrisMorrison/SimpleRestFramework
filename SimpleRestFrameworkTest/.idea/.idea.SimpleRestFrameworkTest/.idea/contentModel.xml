@@ -94,7 +94,6 @@
         <e p="appsettings.Development.json" t="Include" />
         <e p="appsettings.json" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
-        <e p="mono_crash.mem.20488.1.blob" t="Include" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp3.1" t="Include">
@@ -105,6 +104,42 @@
       </e>
       <e p="SimpleRestFrameworkTest.sln" t="IncludeFlat" />
       <e p="packages" t="ExcludeRecursive" />
+    </e>
+    <e p="$PROJECT_DIR$/../SimpleRestFrameworkTestDI" t="IncludeRecursive">
+      <e p="Controllers" t="Include">
+        <e p="WeatherForecastController.cs" t="Include" />
+      </e>
+      <e p="Program.cs" t="Include" />
+      <e p="Properties" t="Include">
+        <e p="launchSettings.json" t="Include" />
+      </e>
+      <e p="SimpleParts" t="Include">
+        <e p="Controller" t="Include">
+          <e p="SimpleControllers.cs" t="Include" />
+        </e>
+        <e p="Dao" t="Include">
+          <e p="SimpleDaos.cs" t="Include" />
+        </e>
+        <e p="Entity" t="Include">
+          <e p="SimpleEntities.cs" t="Include" />
+        </e>
+        <e p="Service" t="Include">
+          <e p="SimpleServices.cs" t="Include" />
+        </e>
+      </e>
+      <e p="SimpleRestFrameworkTestDI.csproj" t="IncludeRecursive" />
+      <e p="Startup.cs" t="Include" />
+      <e p="WeatherForecast.cs" t="Include" />
+      <e p="appsettings.Development.json" t="Include" />
+      <e p="appsettings.json" t="Include" />
+      <e p="bin" t="ExcludeRecursive" />
+      <e p="obj" t="ExcludeRecursive">
+        <e p="Debug" t="Include">
+          <e p="netcoreapp3.1" t="Include">
+            <e p="SimpleRestFrameworkTestDI.AssemblyInfo.cs" t="Include" />
+          </e>
+        </e>
+      </e>
     </e>
   </component>
 </project>

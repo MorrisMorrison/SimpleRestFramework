@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleRestFrameworkTest", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleRestFramework", "..\SimpleRestFramework\SimpleRestFramework\SimpleRestFramework.csproj", "{CE3AAAB4-650F-46E9-B8F8-3DDBEAE60D2F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleRestFrameworkTestDI", "..\SimpleRestFrameworkTestDI\SimpleRestFrameworkTestDI.csproj", "{D7463C25-335C-466D-AD1B-61CFC068E086}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{CE3AAAB4-650F-46E9-B8F8-3DDBEAE60D2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CE3AAAB4-650F-46E9-B8F8-3DDBEAE60D2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CE3AAAB4-650F-46E9-B8F8-3DDBEAE60D2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7463C25-335C-466D-AD1B-61CFC068E086}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7463C25-335C-466D-AD1B-61CFC068E086}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7463C25-335C-466D-AD1B-61CFC068E086}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7463C25-335C-466D-AD1B-61CFC068E086}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

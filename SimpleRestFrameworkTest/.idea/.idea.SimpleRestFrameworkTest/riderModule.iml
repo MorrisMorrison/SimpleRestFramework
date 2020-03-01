@@ -3,6 +3,7 @@
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$/../../../SimpleRestFramework/SimpleRestFramework" />
     <content url="file://$MODULE_DIR$/../.." />
+    <content url="file://$MODULE_DIR$/../../../SimpleRestFrameworkTestDI" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>

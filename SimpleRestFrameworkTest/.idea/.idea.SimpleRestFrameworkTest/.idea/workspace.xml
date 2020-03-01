@@ -2,15 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e36b2d7b-f8a1-4e1c-a4bb-a4fdd823c665" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../SimpleRestFrameworkTestDI/SimpleParts/Controller/SimpleControllers.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SimpleRestFrameworkTestDI/SimpleParts/Dao/SimpleDaos.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SimpleRestFrameworkTestDI/SimpleParts/Entity/SimpleEntities.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SimpleRestFrameworkTestDI/SimpleParts/Service/SimpleServices.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRestFramework/SimpleRestFramework/Controller/CrudController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../SimpleRestFramework/SimpleRestFramework/Controller/CrudController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SimpleRestFramework/SimpleRestFramework/Service/CrudService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../SimpleRestFramework/SimpleRestFramework/Service/CrudService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SimpleRestFramework/SimpleRestFramework/.idea/.idea.SimpleRestFramework.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SimpleRestFramework/SimpleRestFramework/.idea/.idea.SimpleRestFramework.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SimpleRestFramework/SimpleRestFramework/Persistence/Dao/AbstractDao.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../SimpleRestFramework/SimpleRestFramework/Persistence/Dao/AbstractDao.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SimpleRestFramework/SimpleRestFramework/Persistence/Dao/IDaoFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../SimpleRestFramework/SimpleRestFramework/Persistence/Dao/IDaoFactory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SimpleRestFramework/SimpleRestFramework/Persistence/DbConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../SimpleRestFramework/SimpleRestFramework/Persistence/DbConfig.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SimpleRestFrameworkTest/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SimpleRestFrameworkTest/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SimpleRestFrameworkTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SimpleRestFrameworkTest/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SimpleRestFrameworkTest/riderModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SimpleRestFrameworkTest/riderModule.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SimpleRestFrameworkTest.sln" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleRestFrameworkTest.sln" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SimpleRestFrameworkTest/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleRestFrameworkTest/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SimpleRestFrameworkTest/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleRestFrameworkTest/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimpleRestFrameworkTest/Tests/GenericTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleRestFrameworkTest/Tests/GenericTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimpleRestFrameworkTest/Tests/PersistenceTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleRestFrameworkTest/Tests/PersistenceTests.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,28 +28,60 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/../SimpleRestFramework/SimpleRestFramework/Controller/CrudController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../SimpleRestFramework/SimpleRestFramework/Persistence/DbConfig.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../SimpleRestFrameworkTestDI/SimpleParts/Controller/SimpleControllers.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../SimpleRestFrameworkTestDI/SimpleParts/Entity/SimpleEntities.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../SimpleRestFrameworkTestDI/SimpleParts/Dao/SimpleDaos.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../SimpleRestFramework/SimpleRestFramework/Persistence/Dao/IDaoFactory.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../SimpleRestFramework/SimpleRestFramework/Persistence/Dao/AbstractDao.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../SimpleRestFrameworkTestDI/SimpleParts/Service/SimpleServices.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../SimpleRestFramework/SimpleRestFramework/Persistence/Dao/DaoFactory.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../SimpleRestFramework/SimpleRestFramework/Persistence/Dao/IDao.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../SimpleRestFramework/SimpleRestFramework/Persistence/DbConnection/DbConnection.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../SimpleRestFramework/SimpleRestFramework/Persistence/DbConnection/IDbConnection.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../SimpleRestFramework/SimpleRestFramework/Persistence/DbConnection/DbConnectionProvider.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../SimpleRestFrameworkTestDI/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SimpleRestFrameworkTest/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../SimpleRestFrameworkTestDI/Startup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SimpleRestFrameworkTest/WeatherForecast.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SimpleRestFrameworkTest/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SimpleRestFrameworkTest/appsettings.Development.json" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../SimpleRestFramework/SimpleRestFramework/Controller/CrudController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SimpleRestFrameworkTest/appsettings.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SimpleRestFrameworkTest/Controllers/WeatherForecastController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../SimpleRestFramework/SimpleRestFramework/Controller/IController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../SimpleRestFramework/SimpleRestFramework/Controller/IControllerFactory.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../SimpleRestFramework/SimpleRestFramework/Persistence/Dao/IDaoFactory.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../SimpleRestFramework/SimpleRestFramework/Persistence/Dao/AbstractDao.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../SimpleRestFramework/SimpleRestFramework/Persistence/Dao/DaoFactory.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SimpleRestFrameworkTest/Tests/GenericTests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../SimpleRestFramework/SimpleRestFramework/Service/CrudService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SimpleRestFrameworkTest/Tests/PersistenceTests.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/C866BA95-6C92-4815-BE5F-137AACAC57CE/2E/RuntimeType.CoreCLR.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../SimpleRestFramework/SimpleRestFramework/Persistence/Dao/DaoFactory.cs" />
         <option value="$PROJECT_DIR$/../SimpleRestFramework/SimpleRestFramework/Controller/CrudController.cs" />
         <option value="$PROJECT_DIR$/../SimpleRestFramework/SimpleRestFramework/Service/CrudService.cs" />
-        <option value="$PROJECT_DIR$/SimpleRestFrameworkTest/Program.cs" />
         <option value="$PROJECT_DIR$/SimpleRestFrameworkTest/Startup.cs" />
+        <option value="$PROJECT_DIR$/../SimpleRestFrameworkTestDI/SimpleRestFrameworkTestDI.csproj" />
+        <option value="$PROJECT_DIR$/../SimpleRestFrameworkTestDI/Entities/ExampleEntity.cs" />
+        <option value="$PROJECT_DIR$/../SimpleRestFramework/SimpleRestFramework/Persistence/Dao/DaoFactory.cs" />
+        <option value="$PROJECT_DIR$/../SimpleRestFramework/SimpleRestFramework/Persistence/Dao/IDaoFactory.cs" />
+        <option value="$PROJECT_DIR$/../SimpleRestFrameworkTestDI/Types/TypeConfiguration.cs" />
+        <option value="$PROJECT_DIR$/../SimpleRestFrameworkTestDI/Controllers/SimpleControllers.cs" />
+        <option value="$PROJECT_DIR$/../SimpleRestFrameworkTestDI/Entities/SimpleEntities.cs" />
+        <option value="$PROJECT_DIR$/../SimpleRestFrameworkTestDI/Service/SimpleServices.cs" />
+        <option value="$PROJECT_DIR$/../SimpleRestFrameworkTestDI/SimpleParts/Controller/SimpleControlelrs.cs" />
+        <option value="$PROJECT_DIR$/../SimpleRestFrameworkTestDI/SimpleParts/Dao/Simpledao.cs" />
+        <option value="$PROJECT_DIR$/../SimpleRestFrameworkTestDI/SimpleParts/Entity/SimpleEntities.cs" />
+        <option value="$PROJECT_DIR$/../SimpleRestFrameworkTestDI/SimpleParts/Service/SimpleServices.cs" />
+        <option value="$PROJECT_DIR$/../SimpleRestFrameworkTestDI/SimpleParts/Controller/SimpleControllers.cs" />
+        <option value="$PROJECT_DIR$/../SimpleRestFramework/SimpleRestFramework/Persistence/Dao/AbstractDao.cs" />
+        <option value="$PROJECT_DIR$/../SimpleRestFrameworkTestDI/SimpleParts/Dao/SimpleDaos.cs" />
+        <option value="$PROJECT_DIR$/../SimpleRestFrameworkTestDI/Startup.cs" />
+        <option value="$PROJECT_DIR$/../SimpleRestFramework/SimpleRestFramework/Persistence/DbConfig.cs" />
+        <option value="$PROJECT_DIR$/SimpleRestFrameworkTest/Program.cs" />
+        <option value="$PROJECT_DIR$/SimpleRestFrameworkTest/Tests/PersistenceTests.cs" />
+        <option value="$PROJECT_DIR$/SimpleRestFrameworkTest/Tests/GenericTests.cs" />
       </list>
     </option>
   </component>
@@ -62,11 +101,44 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../SimpleRestFramework/SimpleRestFramework/SimpleRestFramework.csproj" />
   </component>
-  <component name="RunManager" selected=".NET Launch Settings Profile.SimpleRestFrameworkTest">
+  <component name="RunManager" selected=".NET Project.SimpleRestFrameworkTestDI">
+    <configuration name="SimpleRestFrameworkTestDI" type="DotNetProject" factoryName=".NET Project" temporary="true">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/../SimpleRestFrameworkTestDI/SimpleRestFrameworkTestDI.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v3.1" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SimpleRestFrameworkTest" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/SimpleRestFrameworkTest/SimpleRestFrameworkTest.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v3.1" />
       <option name="LAUNCH_PROFILE_NAME" value="SimpleRestFrameworkTest" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleRestFrameworkTestDI: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile" temporary="true">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/../SimpleRestFrameworkTestDI/SimpleRestFrameworkTestDI.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v3.1" />
+      <option name="LAUNCH_PROFILE_NAME" value="IIS Express" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <option name="USE_MONO" value="0" />
       <option name="RUNTIME_ARGUMENTS" value="" />
@@ -93,6 +165,12 @@
         <option name="Build" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue=".NET Project.SimpleRestFrameworkTestDI" />
+        <item itemvalue=".NET Launch Settings Profile.SimpleRestFrameworkTestDI: IIS Express" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -105,7 +183,9 @@
       <option name="presentableId" value="Default" />
       <updated>1582458425289</updated>
       <workItem from="1582458426756" duration="395000" />
-      <workItem from="1582459145956" duration="1109000" />
+      <workItem from="1582459145956" duration="1879000" />
+      <workItem from="1583094906195" duration="1588000" />
+      <workItem from="1583096536363" duration="866000" />
     </task>
     <servers />
   </component>
@@ -114,98 +194,119 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
+    <state x="575" y="137" width="827" height="831" key="#SimpleRestFrameworkTestDI:_IIS_Express" timestamp="1583095218276">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="575" y="137" width="827" height="831" key="#SimpleRestFrameworkTestDI:_IIS_Express/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1583095218276" />
     <state width="570" height="568" key="DebuggerActiveHint" timestamp="1582458606831">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state width="570" height="568" key="DebuggerActiveHint/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1582458606831" />
-    <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1582459154851">
+    <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1583095018458">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1582459154851" />
-    <state width="1807" height="344" key="GridCell.Tab.0.bottom" timestamp="1582459483920">
+    <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1583095018458" />
+    <state width="1807" height="278" key="GridCell.Tab.0.bottom" timestamp="1583096493415">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="344" key="GridCell.Tab.0.bottom/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1582459483920" />
-    <state width="1807" height="344" key="GridCell.Tab.0.center" timestamp="1582459483920">
+    <state width="1807" height="278" key="GridCell.Tab.0.bottom/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1583096493415" />
+    <state width="1807" height="278" key="GridCell.Tab.0.center" timestamp="1583096493415">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="344" key="GridCell.Tab.0.center/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1582459483920" />
-    <state width="1807" height="344" key="GridCell.Tab.0.left" timestamp="1582459483920">
+    <state width="1807" height="278" key="GridCell.Tab.0.center/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1583096493415" />
+    <state width="1807" height="278" key="GridCell.Tab.0.left" timestamp="1583096493414">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="344" key="GridCell.Tab.0.left/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1582459483920" />
-    <state width="1807" height="344" key="GridCell.Tab.0.right" timestamp="1582459483920">
+    <state width="1807" height="278" key="GridCell.Tab.0.left/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1583096493414" />
+    <state width="1807" height="278" key="GridCell.Tab.0.right" timestamp="1583096493415">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="344" key="GridCell.Tab.0.right/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1582459483920" />
-    <state width="1807" height="344" key="GridCell.Tab.1.bottom" timestamp="1582459483921">
+    <state width="1807" height="278" key="GridCell.Tab.0.right/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1583096493415" />
+    <state width="1807" height="344" key="GridCell.Tab.1.bottom" timestamp="1582461046181">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="344" key="GridCell.Tab.1.bottom/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1582459483921" />
-    <state width="1807" height="344" key="GridCell.Tab.1.center" timestamp="1582459483921">
+    <state width="1807" height="344" key="GridCell.Tab.1.bottom/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1582461046181" />
+    <state width="1807" height="344" key="GridCell.Tab.1.center" timestamp="1582461046181">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="344" key="GridCell.Tab.1.center/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1582459483921" />
-    <state width="1807" height="344" key="GridCell.Tab.1.left" timestamp="1582459483921">
+    <state width="1807" height="344" key="GridCell.Tab.1.center/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1582461046181" />
+    <state width="1807" height="344" key="GridCell.Tab.1.left" timestamp="1582461046181">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="344" key="GridCell.Tab.1.left/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1582459483921" />
-    <state width="1807" height="344" key="GridCell.Tab.1.right" timestamp="1582459483921">
+    <state width="1807" height="344" key="GridCell.Tab.1.left/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1582461046181" />
+    <state width="1807" height="344" key="GridCell.Tab.1.right" timestamp="1582461046181">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="344" key="GridCell.Tab.1.right/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1582459483921" />
-    <state width="1807" height="344" key="GridCell.Tab.2.bottom" timestamp="1582459483921">
+    <state width="1807" height="344" key="GridCell.Tab.1.right/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1582461046181" />
+    <state width="1807" height="344" key="GridCell.Tab.2.bottom" timestamp="1582461046181">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="344" key="GridCell.Tab.2.bottom/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1582459483921" />
-    <state width="1807" height="344" key="GridCell.Tab.2.center" timestamp="1582459483921">
+    <state width="1807" height="344" key="GridCell.Tab.2.bottom/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1582461046181" />
+    <state width="1807" height="344" key="GridCell.Tab.2.center" timestamp="1582461046181">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="344" key="GridCell.Tab.2.center/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1582459483921" />
-    <state width="1807" height="344" key="GridCell.Tab.2.left" timestamp="1582459483921">
+    <state width="1807" height="344" key="GridCell.Tab.2.center/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1582461046181" />
+    <state width="1807" height="344" key="GridCell.Tab.2.left" timestamp="1582461046181">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="344" key="GridCell.Tab.2.left/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1582459483921" />
-    <state width="1807" height="344" key="GridCell.Tab.2.right" timestamp="1582459483921">
+    <state width="1807" height="344" key="GridCell.Tab.2.left/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1582461046181" />
+    <state width="1807" height="344" key="GridCell.Tab.2.right" timestamp="1582461046181">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="344" key="GridCell.Tab.2.right/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1582459483921" />
-    <state width="1807" height="344" key="GridCell.Tab.3.bottom" timestamp="1582459483921">
+    <state width="1807" height="344" key="GridCell.Tab.2.right/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1582461046181" />
+    <state width="1807" height="344" key="GridCell.Tab.3.bottom" timestamp="1582461046182">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="344" key="GridCell.Tab.3.bottom/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1582459483921" />
-    <state width="1807" height="344" key="GridCell.Tab.3.center" timestamp="1582459483921">
+    <state width="1807" height="344" key="GridCell.Tab.3.bottom/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1582461046182" />
+    <state width="1807" height="344" key="GridCell.Tab.3.center" timestamp="1582461046182">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="344" key="GridCell.Tab.3.center/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1582459483921" />
-    <state width="1807" height="344" key="GridCell.Tab.3.left" timestamp="1582459483921">
+    <state width="1807" height="344" key="GridCell.Tab.3.center/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1582461046182" />
+    <state width="1807" height="344" key="GridCell.Tab.3.left" timestamp="1582461046181">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="344" key="GridCell.Tab.3.left/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1582459483921" />
-    <state width="1807" height="344" key="GridCell.Tab.3.right" timestamp="1582459483921">
+    <state width="1807" height="344" key="GridCell.Tab.3.left/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1582461046181" />
+    <state width="1807" height="344" key="GridCell.Tab.3.right" timestamp="1582461046182">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="344" key="GridCell.Tab.3.right/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1582459483921" />
-    <state width="1807" height="344" key="GridCell.Tab.4.bottom" timestamp="1582459483921">
+    <state width="1807" height="344" key="GridCell.Tab.3.right/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1582461046182" />
+    <state width="1807" height="344" key="GridCell.Tab.4.bottom" timestamp="1582461046182">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="344" key="GridCell.Tab.4.bottom/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1582459483921" />
-    <state width="1807" height="344" key="GridCell.Tab.4.center" timestamp="1582459483921">
+    <state width="1807" height="344" key="GridCell.Tab.4.bottom/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1582461046182" />
+    <state width="1807" height="344" key="GridCell.Tab.4.center" timestamp="1582461046182">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="344" key="GridCell.Tab.4.center/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1582459483921" />
-    <state width="1807" height="344" key="GridCell.Tab.4.left" timestamp="1582459483921">
+    <state width="1807" height="344" key="GridCell.Tab.4.center/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1582461046182" />
+    <state width="1807" height="344" key="GridCell.Tab.4.left" timestamp="1582461046182">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="344" key="GridCell.Tab.4.left/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1582459483921" />
-    <state width="1807" height="344" key="GridCell.Tab.4.right" timestamp="1582459483921">
+    <state width="1807" height="344" key="GridCell.Tab.4.left/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1582461046182" />
+    <state width="1807" height="344" key="GridCell.Tab.4.right" timestamp="1582461046182">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1807" height="344" key="GridCell.Tab.4.right/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1582459483921" />
-    <state x="627" y="182" width="722" height="741" key="RiderGenerateDialog" timestamp="1582459480135">
+    <state width="1807" height="344" key="GridCell.Tab.4.right/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1582461046182" />
+    <state x="588" y="287" width="800" height="530" key="Rider.ProjectTemplateDialog.Size" timestamp="1583095057475">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="627" y="182" width="722" height="741" key="RiderGenerateDialog/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1582459480135" />
+    <state x="588" y="287" width="800" height="530" key="Rider.ProjectTemplateDialog.Size/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1583095057475" />
+    <state x="627" y="182" width="722" height="741" key="RiderGenerateDialog" timestamp="1583097347045">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="627" y="182" width="722" height="741" key="RiderGenerateDialog/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1583097347045" />
   </component>
 </project>

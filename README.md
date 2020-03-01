@@ -1,7 +1,38 @@
 # SimpleRestFramework
-This framework supports buildinging simple rest apis in .NET Core.
-The Goal is to just define the entities and get a default implementation for all layers to provide a full api.
+The goal of this project is to provide a simple way to get a default implementation for Daos, Services and Controllers in .NET Core by just declaring the required classes.
 
+
+## DI
+```csharp
+    public class Startup
+    {
+        public Startup(IConfiguration configuration)
+        {
+            Configuration = configuration;
+        }
+
+        public IConfiguration Configuration { get; }
+
+        // This method gets called by the runtime. Use this method to add services to the container.
+        public void ConfigureServices(IServiceCollection services)
+        {
+            services.AddControllers();
+
+            services.AddSingleton<IDao<ExampleEntity>>(new ExampleDao(new DbConnectionProvider(new DbConfig(Configuration)).GetDbConnection()));
+            services.AddSingleton<ICrudService<ExampleEntity>, ExampleService>();
+            services.AddSingleton<ICrudController<ExampleEntity>, ExampleController>();
+
+        }
+    }
+
+public class ExampleEntity:IEntity{}
+public class ExampleDao:AbstractDao<ExampleEntity>{}
+public class ExampleService:AbstractCrudService<ExampleEntity>{}
+public class ExampleController:AbstractCrudController<ExampleEntity>{}
+
+```
+
+## Factory
 ```csharp
 
 public class Example{
@@ -38,33 +69,6 @@ public class ExampleService:AbstractCrudService<ExampleEntity>{}
 public class ExampleController:AbstractCrudController<ExampleEntity>{}
 ```
 
-```csharp
-    public class Startup
-    {
-        public Startup(IConfiguration configuration)
-        {
-            Configuration = configuration;
-        }
 
-        public IConfiguration Configuration { get; }
-
-        // This method gets called by the runtime. Use this method to add services to the container.
-        public void ConfigureServices(IServiceCollection services)
-        {
-            services.AddControllers();
-
-            services.AddSingleton<IDao<ExampleEntity>, ExampleDao>();
-            services.AddSingleton<ICrudService<ExampleEntity>, ExampleService>();
-            services.AddSingleton<ICrudController<ExampleEntity>, ExampleController>();
-
-        }
-    }
-
-public class ExampleEntity:IEntity{}
-public class ExampleDao:AbstractDao<ExampleEntity>{}
-public class ExampleService:AbstractCrudService<ExampleEntity>{}
-public class ExampleController:AbstractCrudController<ExampleEntity>{}
-
-```
 
 

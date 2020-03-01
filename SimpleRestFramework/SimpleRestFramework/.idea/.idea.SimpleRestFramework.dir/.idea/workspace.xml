@@ -2,24 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d70e717-aace-4ed6-b229-57818b796cac" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Controller/CrudController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Controller/IController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Controller/IControllerFactory.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Service/IService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Service/IServiceFactory.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Service/ServiceFactory.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SimpleRestFramework.dir/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SimpleRestFramework.dir/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SimpleRestFramework.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SimpleRestFramework.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Persistence/Database/MongoDatabase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Persistence/Database/MongoDatabase.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Service/CrudService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Service/CrudService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SimpleRestFramework.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleRestFramework.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../SimpleRestFrameworkTest/.idea/.idea.SimpleRestFrameworkTest/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../SimpleRestFrameworkTest/.idea/.idea.SimpleRestFrameworkTest/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../SimpleRestFrameworkTest/.idea/.idea.SimpleRestFrameworkTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../SimpleRestFrameworkTest/.idea/.idea.SimpleRestFrameworkTest/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SimpleRestFrameworkTest/.idea/.idea.SimpleRestFrameworkTest/riderModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../SimpleRestFrameworkTest/.idea/.idea.SimpleRestFrameworkTest/riderModule.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SimpleRestFrameworkTest/SimpleRestFrameworkTest.sln" beforeDir="false" afterPath="$PROJECT_DIR$/../../SimpleRestFrameworkTest/SimpleRestFrameworkTest.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SimpleRestFrameworkTest/SimpleRestFrameworkTest/Controllers/WeatherForecastController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SimpleRestFrameworkTest/SimpleRestFrameworkTest/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../SimpleRestFrameworkTest/SimpleRestFrameworkTest/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SimpleRestFrameworkTest/SimpleRestFrameworkTest/WeatherForecast.cs" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,13 +37,13 @@
     <setting file="file://$PROJECT_DIR$/Persistence/DbConnection/DbConnectionProvider.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6436C3B0-5946-4D09-B571-C1F184B415F8/ee/e20aa733/DbCommand.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6436C3B0-5946-4D09-B571-C1F184B415F8/92/f96b12f1/IDbCommand.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../SimpleRestFrameworkTest/SimpleRestFrameworkTest/Tests/GenericTests.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Service/IServiceFactory.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Service/ServiceFactory.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Service/IService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Controller/IController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Controller/IControllerFactory.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Utils/PathUtils.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../SimpleRestFrameworkTest/SimpleRestFrameworkTest/Tests/GenericTests.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Service/CrudService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Utils/ConfigUtils.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Test.cs" root0="FORCE_HIGHLIGHTING" />
@@ -146,6 +130,7 @@
       <workItem from="1574550302636" duration="161000" />
       <workItem from="1574552456811" duration="609000" />
       <workItem from="1582395713935" duration="2920000" />
+      <workItem from="1583094754086" duration="151000" />
     </task>
     <servers />
   </component>
@@ -173,10 +158,10 @@
     </ignored-roots>
   </component>
   <component name="WindowStateProjectService">
-    <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1582395750139">
+    <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1583094903246">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1582395750139" />
+    <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1583094903246" />
     <state x="789" y="203" width="722" height="699" key="RiderGenerateDialog" timestamp="1582397624055">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>

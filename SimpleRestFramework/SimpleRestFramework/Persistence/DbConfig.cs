@@ -1,3 +1,5 @@
+using Microsoft.Extensions.Configuration;
+
 namespace SimpleRestFramework.Persistence
 {
     public class DbConfig
@@ -10,6 +12,8 @@ namespace SimpleRestFramework.Persistence
         public string DbName { get; set; }
         public bool IsSqlDb { get; set; }
         public string Schema { get; set; }
+        
+        public IConfiguration Configuration { get; set; }
 
         public DbConfig(string username, string password, string serverUrl, int port, string dbName, string schema)
         {
@@ -31,6 +35,19 @@ namespace SimpleRestFramework.Persistence
             Port = port;
             DbName = dbName;
             IsSqlDb = false;
+        }
+
+        public DbConfig(IConfiguration p_configuration)
+        {
+            Configuration = p_configuration;
+            Username = Configuration["Username"];
+            Password = Configuration["Password"];
+            ServerUrl = Configuration["ServerUrl"];
+            Provider = Configuration["Provider"];
+            Port = int.Parse(Configuration["Port"]);
+            DbName = Configuration["DbName"];
+            IsSqlDb = bool.Parse(Configuration["IsSqlDb"]);
+            Schema = Configuration["DbSchema"];
         }
 
         public string GetMongoConnectionString()
